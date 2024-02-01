@@ -1,0 +1,54 @@
+#mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0;
+  }
+  nav{
+    background-color: green;
+    text-align: right;
+  
+  }
+  .class{
+    float: right;
+  
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+  
+  #PRODUCTS {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #MAITANANCE {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+  #SUPPORT {
+    top: 140px;
+    background-color: #f44336; /* Red */
+  }
+  
+  #ABOUT {
+    top: 200px;
+    background-color: #555 
+  }
+  
+  #CONTACTS {
+    top: 260px;
+    background-color: orange 
+  }
+  
+  #p{
+    style="text-align: center"
+  }
